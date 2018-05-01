@@ -3,7 +3,7 @@ Python interface to the Python-FMask scripts
 
 ## The problem
 
-`python-fmask` only has command-line interfaces to the scripts
+[`python-fmask`](http://pythonfmask.org/en/latest/) only has command-line interfaces to the scripts
 that are needed to create and configure the inputs to run FMask.
 
 ## The solution
