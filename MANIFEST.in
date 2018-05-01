@@ -1,0 +1,2 @@
+include versioneer.py
+include fmask_sanity/_version.py
