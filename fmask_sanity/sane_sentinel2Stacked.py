@@ -5,11 +5,11 @@ from argparse import Namespace
 
 import numpy as np
 
-from sane_fmask.stacks import sentinel_stack
-from sane_fmask.interfaces import fmask_sentinel2Stacked
-from sane_fmask.interfaces import fmask_sentinel2makeAnglesImage
-from sane_fmask.metadata import sentinel2 as s2meta
-from sane_fmask.sensible_defaults import FMASK_PARAMS
+from fmask_sanity.stacks import sentinel_stack
+from fmask_sanity.interfaces import fmask_sentinel2Stacked
+from fmask_sanity.interfaces import fmask_sentinel2makeAnglesImage
+from fmask_sanity.metadata import sentinel2 as s2meta
+from fmask_sanity.sensible_defaults import FMASK_PARAMS
 
 logger = logging.getLogger(__name__)
 

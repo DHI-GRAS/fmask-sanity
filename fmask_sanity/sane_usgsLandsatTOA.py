@@ -5,10 +5,10 @@ from argparse import Namespace
 
 import numpy as np
 
-from sane_fmask.stacks import landsat_stack
-from sane_fmask.interfaces import fmask_usgsLandsatTOA
-from sane_fmask.interfaces import fmask_usgsLandsatMakeAnglesImage
-from sane_fmask.metadata import landsat as lmeta
+from fmask_sanity.stacks import landsat_stack
+from fmask_sanity.interfaces import fmask_usgsLandsatTOA
+from fmask_sanity.interfaces import fmask_usgsLandsatMakeAnglesImage
+from fmask_sanity.metadata import landsat as lmeta
 
 logger = logging.getLogger(__name__)
 

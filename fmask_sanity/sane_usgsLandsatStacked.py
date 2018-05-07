@@ -5,13 +5,13 @@ from argparse import Namespace
 
 import numpy as np
 
-from sane_fmask.stacks import landsat_stack
-from sane_fmask.interfaces import fmask_usgsLandsatStacked
-from sane_fmask.interfaces import fmask_usgsLandsatMakeAnglesImage
-from sane_fmask.interfaces import fmask_usgsLandsatSaturationMask
-from sane_fmask.interfaces import fmask_usgsLandsatTOA
-from sane_fmask.interfaces import landsat as lmeta
-from sane_fmask.sensible_defaults import FMASK_PARAMS
+from fmask_sanity.stacks import landsat_stack
+from fmask_sanity.interfaces import fmask_usgsLandsatStacked
+from fmask_sanity.interfaces import fmask_usgsLandsatMakeAnglesImage
+from fmask_sanity.interfaces import fmask_usgsLandsatSaturationMask
+from fmask_sanity.interfaces import fmask_usgsLandsatTOA
+from fmask_sanity.interfaces import landsat as lmeta
+from fmask_sanity.sensible_defaults import FMASK_PARAMS
 
 logger = logging.getLogger(__name__)
 
