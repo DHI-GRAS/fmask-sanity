@@ -5,4 +5,5 @@ FMASK_PARAMS = dict(
     shadowbufferdistance=300,
     cloudprobthreshold=20,
     nirsnowthreshold=0.11,
-    greensnowthreshold=0.1)
+    greensnowthreshold=0.1,
+    keepintermediates=False)

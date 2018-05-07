@@ -39,7 +39,6 @@ def run_fmask(granuledir, output, verbose=False, **kwargs):
             output=output,
             verbose=verbose,
             tempdir=tempdir,
-            keepintermediates=False,
             **kwargs)
 
         logger.info('Running FMask ...')

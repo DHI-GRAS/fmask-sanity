@@ -78,7 +78,6 @@ def run_fmask(productdir, output, landsatkey='8', **kwargs):
             saturation=saturationfile,
             mtl=mtl,
             verbose=True,
-            keepintermediates=False,
             tempdir=tempdir,
             output=output,
             **kwargs)
